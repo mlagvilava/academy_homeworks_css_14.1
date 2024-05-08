@@ -1,0 +1,158 @@
+@font-face {
+    font-family: roboto_thin;
+    src: url(fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: roboto_light;
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: linear-gradient(90deg, white, #E8EFFC);
+    font-family: roboto_thin;
+}
+
+h1 {
+    font-family: roboto_thin;
+    font-size: 45.07px;
+    letter-spacing: -1.73px;
+    color: #43484D;
+    margin-top: 161.75px !important;
+    text-align: center;
+    margin-bottom: 49.41px !important;
+}
+
+h1, h2{
+    margin: 0;
+}
+
+h2 {
+    margin-top: 50.25px !important;
+    text-align: center;
+    font-size: 26.36px;
+    color: #43484D;
+}
+
+hr {
+    border-top: 1px solid #E1E8EE;
+    opacity: 50%;
+    margin: 0;
+}
+
+.cards_div {
+    width: 939.07px;
+    height: 354.21px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 296.55px;
+    height: 354.21px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0.82px 1.65px 2.47px 0px #00000019;
+}
+
+.card_agency {
+    width: 296.55px;
+    height: 354.21px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0.82px 1.65px 2.47px 0px #00000019;
+    border: 2px solid #358ED736
+}
+
+.card_description_personal {
+    font-size: 13.50px;
+    text-align: center;
+    line-height: 20.59px;
+    margin-left: 24.71px;
+    margin-right: 24.71px;
+    color: #86939E;
+    margin-bottom: 32.95px;
+    font-family: roboto_light;
+}
+
+.card_description {
+    font-size: 13.50px;
+    text-align: center;
+    line-height: 20.59px;
+    margin-left: 24.71px;
+    margin-right: 24.71px;
+    color: #86939E;
+    margin-bottom: 53.54px;
+    font-family: roboto_light;
+}
+
+.card_pricings_position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_pricing_free {
+    color: #7DC855;
+    font-size: 42.83px;
+    margin-left: 35.83px;
+    margin-right: 23.48px;
+    margin-top: 21.42px;
+    letter-spacing: -1.65px;
+    font-family: roboto_light;
+}
+
+.card_pricing_agency {
+    color: #43484D;
+    font-size: 42.83px;
+    margin-left: 35.83px;
+    margin-right: 23.48px;
+    margin-top: 21.42px;
+    letter-spacing: -1.65px;
+    font-family: roboto_light;
+}
+
+.card_pricing {
+    color: #43484D;
+    font-size: 42.83px;
+    margin-left: 35.83px;
+    margin-right: 23.48px;
+    margin-top: 21.42px;
+    letter-spacing: -1.65px;
+    font-family: roboto_light;
+}
+
+.card_billing {
+    margin-top: 21.42px;
+    margin-right: 24.71px;
+    width: 132px;
+    height: 49.42px;
+    font-size: 11.53px;
+    color: #86939E;
+    font-family: roboto_light;
+}
+
+.button {
+    width: 247.12px;
+    height: 49.42px;
+    margin: 21.42px 24.71px 24.71px 24.71px;
+    background-color: #7DC855;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 13.18px;
+}
+
+sup {
+    font-size: 22.24px;
+}
+
+img {
+    margin-left: 251.5px;
+    position:absolute;
+}
